@@ -1,4 +1,4 @@
-# MySQL GitHub Action
+# SqlServer GitHub Action
 
 This [GitHub Action](https://github.com/features/actions) sets up a Sql database.
 
