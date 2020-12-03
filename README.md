@@ -8,7 +8,7 @@ This [GitHub Action](https://github.com/features/actions) sets up a Sql database
 steps:
 - uses: 280780363@sqlserver-action@v1.0
   with:
-    accept eula: Y Required, ACCEPT_EULA confirms your acceptance of the End-User Licensing Agreement.
+    accept eula: Y #Required, ACCEPT_EULA confirms your acceptance of the End-User Licensing Agreement.
     sa password: SqlSever123123 # Optional, default value is SqlSever123123.
 ```
 
