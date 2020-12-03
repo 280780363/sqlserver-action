@@ -1,0 +1,14 @@
+name: 'Start SqlServer'
+description: 'Start a SqlServer database, use docker image of https://hub.docker.com/_/microsoft-mssql-server?tab=description'
+author: 'gucao'
+branding:
+  icon: 'database'
+  color: 'yellow'
+inputs:
+  sa password:
+    description: 'SA_PASSWORD - sa password, default SqlSever123123'
+    required: false
+    default: 'SqlSever123123'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
