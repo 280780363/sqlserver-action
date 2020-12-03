@@ -5,6 +5,9 @@ branding:
   icon: 'database'
   color: 'yellow'
 inputs:
+  accept eula:
+    description: 'ACCEPT_EULA confirms your acceptance of the End-User Licensing Agreement.'
+    required: true    
   sa password:
     description: 'SA_PASSWORD - sa password, default SqlSever123123'
     required: false
